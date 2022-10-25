@@ -3,4 +3,6 @@
 
 
 Hello Everyone , I'm jarvis.
-A voice assistant prototype.
+A voice assistant pro-totype.
+
+Am in beginning
