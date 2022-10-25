@@ -1,3 +1,4 @@
+
 from sqlite3 import TimestampFromTicks
 import pywhatkit
 import speech_recognition as sr
@@ -62,9 +63,17 @@ def run_jarvis():
     elif "fine" in command:
         talk("ok sir what can i do for you") 
     
+    elif "speeching test" in command or "audio checking " in command:
+        talk("yes sir i can hear you.")
+    
+    elif "who create you" in command or "when do you born" in command or "how old are you" in command:
+        talk("mr.ponraj create me as a prototype on 02 May 2022,7.06.40 PM ")
+    
     elif "how are you"  in command  or "how was the day"  in command or "what's up buddy" in command:
         talk("i m having a good day sir ")
         talk(" what about you") 
+    elif "who are you " in command :
+        talk("I am jarvis , voice assistant proto type.")
     
     elif "where are you" in command:
         talk("inside your heart")
