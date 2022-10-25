@@ -2,4 +2,5 @@
 
 
 
-#hello Everyone , Im jarvis voice assistant.
+#Hello Everyone , I'm jarvis.
+#A voice assistant prototype.
