@@ -63,7 +63,7 @@ def run_jarvis():
     elif "fine" in command:
         talk("ok sir what can i do for you") 
     
-    elif "speeching test" in command or "audio checking " in command:
+    elif "speech testing" in command or "audio checking " in command:
         talk("yes sir i can hear you.")
     
     elif "who create you" in command or "when do you born" in command or "how old are you" in command:
@@ -120,7 +120,6 @@ while True:
         talk("thank you sir")
         print(" ")
         break
-
     
 """
 engine.say("hello sir , i am jarvis " )
